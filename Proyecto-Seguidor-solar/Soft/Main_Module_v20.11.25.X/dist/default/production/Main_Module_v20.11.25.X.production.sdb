@@ -1,0 +1,1936 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K22 ]
+[d frameptr 4065 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"8 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"12 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"23
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"15 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _EPWM2_Initialize EPWM2_Initialize `(v  1 e 1 0 ]
+"66
+[v _EPWM2_period EPWM2_period `(v  1 e 1 0 ]
+"79
+[v _EPWM2_duty_const EPWM2_duty_const `(f  1 e 4 0 ]
+"86
+[v _EPWM2_engine_config EPWM2_engine_config `(v  1 e 1 0 ]
+"101
+[v _EPWM2_outputs_off EPWM2_outputs_off `(v  1 e 1 0 ]
+"107
+[v _EPWM2_outputs_on EPWM2_outputs_on `(v  1 e 1 0 ]
+"112
+[v _EPWM2_engine_running EPWM2_engine_running `(v  1 e 1 0 ]
+"120
+[v _EPWM2_engine_off EPWM2_engine_off `(v  1 e 1 0 ]
+"135
+[v _EPWM2_engine_SoftStart EPWM2_engine_SoftStart `(v  1 e 1 0 ]
+"162
+[v _EPWM2_engine_SoftStop EPWM2_engine_SoftStop `(v  1 e 1 0 ]
+"15 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm3.c
+[v _EPWM3_Initialize EPWM3_Initialize `(v  1 e 1 0 ]
+"66
+[v _EPWM3_period EPWM3_period `(v  1 e 1 0 ]
+"79
+[v _EPWM3_duty_const EPWM3_duty_const `(f  1 e 4 0 ]
+"88
+[v _EPWM3_engine_config EPWM3_engine_config `(v  1 e 1 0 ]
+"103
+[v _EPWM3_outputs_off EPWM3_outputs_off `(v  1 e 1 0 ]
+"109
+[v _EPWM3_outputs_on EPWM3_outputs_on `(v  1 e 1 0 ]
+"114
+[v _EPWM3_engine_running EPWM3_engine_running `(v  1 e 1 0 ]
+"122
+[v _EPWM3_engine_off EPWM3_engine_off `(v  1 e 1 0 ]
+"137
+[v _EPWM3_engine_SoftStart EPWM3_engine_SoftStart `(v  1 e 1 0 ]
+"172
+[v _EPWM3_engine_SoftStop EPWM3_engine_SoftStop `(v  1 e 1 0 ]
+"201
+[v _EPWM3_STOP EPWM3_STOP `(v  1 e 1 0 ]
+"51 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"98
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"102
+[v _EUSART1_is_rx_ready EUSART1_is_rx_ready `(a  1 e 1 0 ]
+"120
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"134
+[v _getche getche `(uc  1 e 1 0 ]
+"138
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"173
+[v _putch putch `(v  1 e 1 0 ]
+"177
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+"192
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"210
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"235
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"239
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"245
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"249
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"253
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"257
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"261
+[v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+"265
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/i2c2_master.c
+[v _i2c2_init i2c2_init `(v  1 e 1 0 ]
+"24
+[v _i2c2_Open i2c2_Open `(uc  1 e 1 0 ]
+"51
+[v _i2c2_gets i2c2_gets `(uc  1 e 1 0 ]
+"103
+[v _i2c2_control i2c2_control `(a  1 e 1 0 ]
+"12 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"31
+[v _EXT_INT_init EXT_INT_init `(v  1 e 1 0 ]
+"58
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+"66
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+"73
+[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
+"85
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+"96
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/Light_sensor_I2C.c
+[v _i2c_BH1750_init i2c_BH1750_init `(v  1 e 1 0 ]
+"22
+[v _i2c_BH1750_open i2c_BH1750_open `(uc  1 e 1 0 ]
+"43
+[v _BH1750_Data_Read BH1750_Data_Read `(us  1 e 2 0 ]
+"55
+[v _BH1750_measure BH1750_measure `(us  1 e 2 0 ]
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"28
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"9 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"10 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"16 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"28
+[v _TMR0_period TMR0_period `(v  1 e 1 0 ]
+"34
+[v _TMR0_request_period TMR0_request_period `(uc  1 e 1 0 ]
+"38
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+"43
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+"48
+[v _TMR0_WriteTimer TMR0_WriteTimer `(us  1 e 2 0 ]
+"62
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"68
+[v _TMR0_HasOverflowOccured TMR0_HasOverflowOccured `(a  1 e 1 0 ]
+"37 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"51
+[v _TMR1_Reload TMR1_Reload `(v  1 e 1 0 ]
+"56
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"10 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr2.c
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"15
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+"20
+[v _TMR2_WriteTimer TMR2_WriteTimer `(v  1 e 1 0 ]
+"25
+[v _TMR2_LoadPeriodRegister TMR2_LoadPeriodRegister `(v  1 e 1 0 ]
+"37 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr3.c
+[v _TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
+"50
+[v _TMR3_Reload TMR3_Reload `(v  1 e 1 0 ]
+"55
+[v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
+"10 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr4.c
+[v _TMR4_StartTimer TMR4_StartTimer `(v  1 e 1 0 ]
+"15
+[v _TMR4_StopTimer TMR4_StopTimer `(v  1 e 1 0 ]
+"20
+[v _TMR4_WriteTimer TMR4_WriteTimer `(v  1 e 1 0 ]
+"25
+[v _TMR4_LoadPeriodRegister TMR4_LoadPeriodRegister `(v  1 e 1 0 ]
+"26 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\user.c
+[v _init_App init_App `(v  1 e 1 0 ]
+"51
+[v _command_get command_get `(v  1 e 1 0 ]
+"72
+[v _short_commands short_commands `(uc  1 e 1 0 ]
+"177
+[v _mode_check mode_check `(v  1 e 1 0 ]
+"192
+[v _Emergency_stop Emergency_stop `(uc  1 e 1 0 ]
+"212
+[v _jump_azi_ctrl jump_azi_ctrl `(uc  1 e 1 0 ]
+"230
+[v _azi_lim_control azi_lim_control `(uc  1 e 1 0 ]
+[s S24 . 2 `uc 1 status 1 0 `uc 1 turn 1 1 ]
+"37 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X/mcc_generated_files/epwm2.h
+[v _STATUS_Eng_A STATUS_Eng_A `S24  1 e 2 0 ]
+"37 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X/mcc_generated_files/epwm3.h
+[v _STATUS_Eng_V STATUS_Eng_V `S24  1 e 2 0 ]
+"43 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X/mcc_generated_files/eusart1.h
+[v _usart1_busy usart1_busy `VEuc  1 e 1 0 ]
+"35 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X/mcc_generated_files/interrupt_manager.h
+[v _MODE_BUTTON MODE_BUTTON `uc  1 e 1 0 ]
+[s S30 . 4 `uc 1 I2C_state 1 0 `uc 1 SENS_ERROR 1 1 `uc 1 i2c_count_error 1 2 `uc 1 Data_Read_error 1 3 ]
+"27 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X/mcc_generated_files/Light_sensor_I2C.h
+[v _i2c_Error i2c_Error `S30  1 e 4 0 ]
+"34 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X/user.h
+[v _flag_jump_azi_pos flag_jump_azi_pos `a  1 e 1 0 ]
+[s S2686 . 8 `[3]us 1 Average_Sensor 6 0 `us 1 Average_Sensor_Total 2 6 ]
+"59
+[v _request_light request_light `S2686  1 e 8 0 ]
+[s S2689 . 4 `us 1 azimut_angle 2 0 `us 1 elevation_angle 2 2 ]
+"60
+[v _current_pos current_pos `S2689  1 e 4 0 ]
+[v _previous_pos previous_pos `S2689  1 e 4 0 ]
+[v _request_pos request_pos `S2689  1 e 4 0 ]
+[s S2692 . 3 `uc 1 mode 1 0 `uc 1 i2c_stat 1 1 `uc 1 lim_azimuth 1 2 ]
+"61
+[v _syst_Stat syst_Stat `S2692  1 e 3 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f46k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"97
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"147
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"198
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"260
+[v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
+[s S269 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 C2TSEL 1 0 :2:3 
+`uc 1 . 1 0 :1:5 
+`uc 1 C3TSEL 1 0 :2:6 
+]
+"1413
+[s S275 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C2TSEL0 1 0 :1:3 
+`uc 1 C2TSEL1 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C3TSEL0 1 0 :1:6 
+`uc 1 C3TSEL1 1 0 :1:7 
+]
+[u S284 . 1 `S269 1 . 1 0 `S275 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES284  1 e 1 @3913 ]
+[s S418 . 1 `uc 1 T4CKPS 1 0 :2:0 
+`uc 1 TMR4ON 1 0 :1:2 
+`uc 1 T4OUTPS 1 0 :4:3 
+]
+"1846
+[s S422 . 1 `uc 1 T4CKPS0 1 0 :1:0 
+`uc 1 T4CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T4OUTPS0 1 0 :1:3 
+`uc 1 T4OUTPS1 1 0 :1:4 
+`uc 1 T4OUTPS2 1 0 :1:5 
+`uc 1 T4OUTPS3 1 0 :1:6 
+]
+[u S430 . 1 `S418 1 . 1 0 `S422 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES430  1 e 1 @3921 ]
+"1896
+[v _PR4 PR4 `VEuc  1 e 1 @3922 ]
+"1916
+[v _TMR4 TMR4 `VEuc  1 e 1 @3923 ]
+"2158
+[v _PSTR3CON PSTR3CON `VEuc  1 e 1 @3930 ]
+[s S308 . 1 `uc 1 P3SSBD 1 0 :2:0 
+`uc 1 P3SSAC 1 0 :2:2 
+`uc 1 CCP3AS 1 0 :3:4 
+`uc 1 CCP3ASE 1 0 :1:7 
+]
+"2271
+[s S313 . 1 `uc 1 P3SSBD0 1 0 :1:0 
+`uc 1 P3SSBD1 1 0 :1:1 
+`uc 1 P3SSAC0 1 0 :1:2 
+`uc 1 P3SSAC1 1 0 :1:3 
+`uc 1 CCP3AS0 1 0 :1:4 
+`uc 1 CCP3AS1 1 0 :1:5 
+`uc 1 CCP3AS2 1 0 :1:6 
+]
+[s S321 . 1 `uc 1 PSS3BD 1 0 :2:0 
+`uc 1 PSS3AC 1 0 :2:2 
+]
+[s S324 . 1 `uc 1 PSS3BD0 1 0 :1:0 
+`uc 1 PSS3BD1 1 0 :1:1 
+`uc 1 PSS3AC0 1 0 :1:2 
+`uc 1 PSS3AC1 1 0 :1:3 
+]
+[u S329 . 1 `S308 1 . 1 0 `S313 1 . 1 0 `S321 1 . 1 0 `S324 1 . 1 0 ]
+[v _ECCP3ASbits ECCP3ASbits `VES329  1 e 1 @3931 ]
+[s S356 . 1 `uc 1 P3DC 1 0 :7:0 
+`uc 1 P3RSEN 1 0 :1:7 
+]
+"2496
+[s S359 . 1 `uc 1 P3DC0 1 0 :1:0 
+`uc 1 P3DC1 1 0 :1:1 
+`uc 1 P3DC2 1 0 :1:2 
+`uc 1 P3DC3 1 0 :1:3 
+`uc 1 P3DC4 1 0 :1:4 
+`uc 1 P3DC5 1 0 :1:5 
+`uc 1 P3DC6 1 0 :1:6 
+]
+[u S367 . 1 `S356 1 . 1 0 `S359 1 . 1 0 ]
+[v _PWM3CONbits PWM3CONbits `VES367  1 e 1 @3932 ]
+[s S382 . 1 `uc 1 CCP3M 1 0 :4:0 
+`uc 1 DC3B 1 0 :2:4 
+`uc 1 P3M 1 0 :2:6 
+]
+"2568
+[s S386 . 1 `uc 1 CCP3M0 1 0 :1:0 
+`uc 1 CCP3M1 1 0 :1:1 
+`uc 1 CCP3M2 1 0 :1:2 
+`uc 1 CCP3M3 1 0 :1:3 
+`uc 1 DC3B0 1 0 :1:4 
+`uc 1 DC3B1 1 0 :1:5 
+`uc 1 P3M0 1 0 :1:6 
+`uc 1 P3M1 1 0 :1:7 
+]
+[u S395 . 1 `S382 1 . 1 0 `S386 1 . 1 0 ]
+[v _CCP3CONbits CCP3CONbits `VES395  1 e 1 @3933 ]
+"2635
+[v _CCPR3L CCPR3L `VEuc  1 e 1 @3934 ]
+"2719
+[v _WPUB WPUB `VEuc  1 e 1 @3937 ]
+"2820
+[v _PSTR2CON PSTR2CON `VEuc  1 e 1 @3939 ]
+[s S784 . 1 `uc 1 P2SSBD 1 0 :2:0 
+`uc 1 P2SSAC 1 0 :2:2 
+`uc 1 CCP2AS 1 0 :3:4 
+`uc 1 CCP2ASE 1 0 :1:7 
+]
+"2997
+[s S789 . 1 `uc 1 P2SSBD0 1 0 :1:0 
+`uc 1 P2SSBD1 1 0 :1:1 
+`uc 1 P2SSAC0 1 0 :1:2 
+`uc 1 P2SSAC1 1 0 :1:3 
+`uc 1 CCP2AS0 1 0 :1:4 
+`uc 1 CCP2AS1 1 0 :1:5 
+`uc 1 CCP2AS2 1 0 :1:6 
+]
+[s S797 . 1 `uc 1 PSS2BD 1 0 :2:0 
+`uc 1 PSS2AC 1 0 :2:2 
+]
+[s S800 . 1 `uc 1 PSS2BD0 1 0 :1:0 
+`uc 1 PSS2BD1 1 0 :1:1 
+`uc 1 PSS2AC0 1 0 :1:2 
+`uc 1 PSS2AC1 1 0 :1:3 
+]
+[u S805 . 1 `S784 1 . 1 0 `S789 1 . 1 0 `S797 1 . 1 0 `S800 1 . 1 0 ]
+[v _ECCP2ASbits ECCP2ASbits `VES805  1 e 1 @3940 ]
+[s S832 . 1 `uc 1 P2DC 1 0 :7:0 
+`uc 1 P2RSEN 1 0 :1:7 
+]
+"3222
+[s S835 . 1 `uc 1 P2DC0 1 0 :1:0 
+`uc 1 P2DC1 1 0 :1:1 
+`uc 1 P2DC2 1 0 :1:2 
+`uc 1 P2DC3 1 0 :1:3 
+`uc 1 P2DC4 1 0 :1:4 
+`uc 1 P2DC5 1 0 :1:5 
+`uc 1 P2DC6 1 0 :1:6 
+]
+[u S843 . 1 `S832 1 . 1 0 `S835 1 . 1 0 ]
+[v _PWM2CONbits PWM2CONbits `VES843  1 e 1 @3941 ]
+[s S858 . 1 `uc 1 CCP2M 1 0 :4:0 
+`uc 1 DC2B 1 0 :2:4 
+`uc 1 P2M 1 0 :2:6 
+]
+"3294
+[s S862 . 1 `uc 1 CCP2M0 1 0 :1:0 
+`uc 1 CCP2M1 1 0 :1:1 
+`uc 1 CCP2M2 1 0 :1:2 
+`uc 1 CCP2M3 1 0 :1:3 
+`uc 1 DC2B0 1 0 :1:4 
+`uc 1 DC2B1 1 0 :1:5 
+`uc 1 P2M0 1 0 :1:6 
+`uc 1 P2M1 1 0 :1:7 
+]
+[u S871 . 1 `S858 1 . 1 0 `S862 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES871  1 e 1 @3942 ]
+"3361
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @3943 ]
+"3401
+[v _SSP2CON3 SSP2CON3 `VEuc  1 e 1 @3945 ]
+"3533
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @3947 ]
+[s S1051 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"3568
+[s S1060 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S1069 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S1076 . 1 `S1051 1 . 1 0 `S1060 1 . 1 0 `S1069 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES1076  1 e 1 @3947 ]
+"3678
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3948 ]
+"3798
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3949 ]
+[s S1140 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"3933
+[s S1143 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S1146 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S1155 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S1160 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S1165 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S1170 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S1175 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S1178 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S1181 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S1186 . 1 `uc 1 BF2 1 0 :1:0 
+`uc 1 UA2 1 0 :1:1 
+`uc 1 I2C_READ2 1 0 :1:2 
+`uc 1 I2C_START2 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA2 1 0 :1:5 
+`uc 1 CKE2 1 0 :1:6 
+`uc 1 SMP2 1 0 :1:7 
+]
+[s S1195 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE2 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS2 1 0 :1:5 
+]
+[s S1201 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW2 1 0 :1:2 
+`uc 1 START2 1 0 :1:3 
+`uc 1 STOP2 1 0 :1:4 
+`uc 1 D_A2 1 0 :1:5 
+]
+[s S1207 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A2 1 0 :1:5 
+]
+[s S1210 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA2 1 0 :1:5 
+]
+[s S1215 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W2 1 0 :1:2 
+]
+[s S1218 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT2 1 0 :1:5 
+]
+[s S1223 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S1226 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S1229 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S1234 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE2 1 0 :1:2 
+]
+[s S1237 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS2 1 0 :1:5 
+]
+[s S1240 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS2 1 0 :1:5 
+]
+[u S1245 . 1 `S1140 1 . 1 0 `S1143 1 . 1 0 `S1146 1 . 1 0 `S1155 1 . 1 0 `S1160 1 . 1 0 `S1165 1 . 1 0 `S1170 1 . 1 0 `S1175 1 . 1 0 `S1178 1 . 1 0 `S1181 1 . 1 0 `S1186 1 . 1 0 `S1195 1 . 1 0 `S1201 1 . 1 0 `S1207 1 . 1 0 `S1210 1 . 1 0 `S1215 1 . 1 0 `S1218 1 . 1 0 `S1223 1 . 1 0 `S1226 1 . 1 0 `S1229 1 . 1 0 `S1234 1 . 1 0 `S1237 1 . 1 0 `S1240 1 . 1 0 ]
+[v _SSP2STATbits SSP2STATbits `VES1245  1 e 1 @3949 ]
+"4198
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @3950 ]
+"4268
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3951 ]
+"7142
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"7560
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S679 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"7587
+[s S688 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S697 . 1 `S679 1 . 1 0 `S688 1 . 1 0 ]
+[v _LATAbits LATAbits `VES697  1 e 1 @3977 ]
+"7672
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7784
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S188 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"7811
+[s S197 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S206 . 1 `S188 1 . 1 0 `S197 1 . 1 0 ]
+[v _LATCbits LATCbits `VES206  1 e 1 @3979 ]
+"7896
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"8008
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"8060
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S719 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"8092
+[s S728 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S737 . 1 `S719 1 . 1 0 `S728 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES737  1 e 1 @3986 ]
+"8282
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8504
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S228 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"8536
+[s S237 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S246 . 1 `S228 1 . 1 0 `S237 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES246  1 e 1 @3988 ]
+"8726
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"8948
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S1420 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"9436
+[s S1428 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S1433 . 1 `S1420 1 . 1 0 `S1428 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1433  1 e 1 @3997 ]
+[s S1922 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"9513
+[s S1930 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S1935 . 1 `S1922 1 . 1 0 `S1930 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1935  1 e 1 @3998 ]
+[s S1764 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR2IP 1 0 :1:1 
+`uc 1 CCP1IP 1 0 :1:2 
+`uc 1 SSP1IP 1 0 :1:3 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+`uc 1 ADIP 1 0 :1:6 
+]
+"9590
+[s S1772 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIP 1 0 :1:3 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+]
+[u S1777 . 1 `S1764 1 . 1 0 `S1772 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES1777  1 e 1 @3999 ]
+[s S1956 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"9671
+[s S1965 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+]
+[s S1969 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S1972 . 1 `S1956 1 . 1 0 `S1965 1 . 1 0 `S1969 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1972  1 e 1 @4000 ]
+[s S1993 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"9757
+[s S2002 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+]
+[s S2006 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S2009 . 1 `S1993 1 . 1 0 `S2002 1 . 1 0 `S2006 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES2009  1 e 1 @4001 ]
+[s S1798 . 1 `uc 1 CCP2IP 1 0 :1:0 
+`uc 1 TMR3IP 1 0 :1:1 
+`uc 1 HLVDIP 1 0 :1:2 
+`uc 1 BCL1IP 1 0 :1:3 
+`uc 1 EEIP 1 0 :1:4 
+`uc 1 C2IP 1 0 :1:5 
+`uc 1 C1IP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"9843
+[s S1807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIP 1 0 :1:2 
+`uc 1 BCLIP 1 0 :1:3 
+]
+[s S1811 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIP 1 0 :1:6 
+]
+[u S1814 . 1 `S1798 1 . 1 0 `S1807 1 . 1 0 `S1811 1 . 1 0 ]
+[v _IPR2bits IPR2bits `VES1814  1 e 1 @4002 ]
+[s S2332 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"10190
+[s S2341 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S2344 . 1 `S2332 1 . 1 0 `S2341 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES2344  1 e 1 @4006 ]
+"10235
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"10255
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"10275
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"10345
+[v _EEADRH EEADRH `VEuc  1 e 1 @4010 ]
+"10379
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S1528 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"10432
+[s S1537 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1540 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S1549 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1553 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1556 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S1559 . 1 `S1528 1 . 1 0 `S1537 1 . 1 0 `S1540 1 . 1 0 `S1549 1 . 1 0 `S1553 1 . 1 0 `S1556 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES1559  1 e 1 @4011 ]
+"10835
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"11210
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"11288
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"11366
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"11444
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4016 ]
+"11522
+[v _T3CON T3CON `VEuc  1 e 1 @4017 ]
+[s S2457 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"11555
+[s S2460 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 T3RD16 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 T3SOSCEN 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 TMR3CS 1 0 :2:6 
+]
+[s S2467 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3OSCEN 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+`uc 1 TMR3CS0 1 0 :1:6 
+`uc 1 TMR3CS1 1 0 :1:7 
+]
+[s S2474 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RD163 1 0 :1:7 
+]
+[u S2479 . 1 `S2457 1 . 1 0 `S2460 1 . 1 0 `S2467 1 . 1 0 `S2474 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES2479  1 e 1 @4017 ]
+"11637
+[v _TMR3L TMR3L `VEuc  1 e 1 @4018 ]
+"11657
+[v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
+"11677
+[v _T3GCON T3GCON `VEuc  1 e 1 @4020 ]
+"12408
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4024 ]
+[s S894 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"13253
+[s S898 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S906 . 1 `S894 1 . 1 0 `S898 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES906  1 e 1 @4026 ]
+"13303
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+"13323
+[v _TMR2 TMR2 `VEuc  1 e 1 @4028 ]
+"13472
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"13543
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"13611
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S2554 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"13656
+[s S2557 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S2561 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S2569 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S2572 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S2575 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S2578 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S2581 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S2584 . 1 `S2554 1 . 1 0 `S2557 1 . 1 0 `S2561 1 . 1 0 `S2569 1 . 1 0 `S2572 1 . 1 0 `S2575 1 . 1 0 `S2578 1 . 1 0 `S2581 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES2584  1 e 1 @4034 ]
+"13743
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"13763
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"15259
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+"15573
+[v _T1GCON T1GCON `VEuc  1 e 1 @4044 ]
+"15668
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S2228 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"15701
+[s S2231 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[s S2238 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[s S2247 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN 1 0 :1:3 
+]
+[u S2250 . 1 `S2228 1 . 1 0 `S2231 1 . 1 0 `S2238 1 . 1 0 `S2247 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES2250  1 e 1 @4045 ]
+"15788
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"15808
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S1697 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"15871
+[s S1699 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S1702 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S1705 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S1708 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S1711 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S1720 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S1726 . 1 `S1697 1 . 1 0 `S1699 1 . 1 0 `S1702 1 . 1 0 `S1705 1 . 1 0 `S1708 1 . 1 0 `S1711 1 . 1 0 `S1720 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1726  1 e 1 @4048 ]
+"15989
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+[s S80 . 1 `uc 1 LFIOFS 1 0 :1:0 
+`uc 1 MFIOFS 1 0 :1:1 
+`uc 1 PRISD 1 0 :1:2 
+`uc 1 SOSCGO 1 0 :1:3 
+`uc 1 MFIOSEL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SOSCRUN 1 0 :1:6 
+`uc 1 PLLRDY 1 0 :1:7 
+]
+"16006
+[u S89 . 1 `S80 1 . 1 0 ]
+[v _OSCCON2bits OSCCON2bits `VES89  1 e 1 @4050 ]
+"16046
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16129
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S2142 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"16149
+[s S2149 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S2153 . 1 `S2142 1 . 1 0 `S2149 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES2153  1 e 1 @4053 ]
+"16206
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"16226
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S474 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"16791
+[s S483 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S492 . 1 `S474 1 . 1 0 `S483 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES492  1 e 1 @4080 ]
+[s S140 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"16881
+[s S143 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S152 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S155 . 1 `S140 1 . 1 0 `S143 1 . 1 0 `S152 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES155  1 e 1 @4081 ]
+[s S535 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16958
+[s S544 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S553 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S557 . 1 `S535 1 . 1 0 `S544 1 . 1 0 `S553 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES557  1 e 1 @4082 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"13 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _count_EPWM2_SStart count_EPWM2_SStart `uc  1 e 1 0 ]
+[v _count_EPWM2_SStop count_EPWM2_SStop `uc  1 e 1 0 ]
+"13 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm3.c
+[v _count_EPWM3_SStart count_EPWM3_SStart `uc  1 e 1 0 ]
+[v _count_EPWM3_SStop count_EPWM3_SStop `uc  1 e 1 0 ]
+[v _interval_ISR interval_ISR `uc  1 e 1 0 ]
+"12 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/eusart1.c
+[v _eusart1TxHead eusart1TxHead `VEuc  1 e 1 0 ]
+"13
+[v _eusart1TxTail eusart1TxTail `VEuc  1 e 1 0 ]
+"14
+[v _eusart1TxBuffer eusart1TxBuffer `VE[24]uc  1 e 24 0 ]
+"15
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"19
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"20
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"21
+[v _eusart1RxBuffer eusart1RxBuffer `VE[24]uc  1 e 24 0 ]
+[s S1406 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"25
+[u S1411 . 1 `S1406 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[24]S1411  1 e 24 0 ]
+"26
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"27
+[v _eusart1RxLastError eusart1RxLastError `VES1411  1 e 1 0 ]
+"29
+[v _DataRx1 DataRx1 `a  1 e 1 0 ]
+"32
+[v _caracter_count caracter_count `uc  1 e 1 0 ]
+"40
+[v _EUSART1_TxDefaultInterruptHandler EUSART1_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"41
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"43
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"44
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"45
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"13 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEus  1 e 2 0 ]
+"14
+[v _T T `VEuc  1 e 1 0 ]
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr3.c
+[v _timer3ReloadVal timer3ReloadVal `VEus  1 e 2 0 ]
+"14 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\user.c
+[v _command command `[24]uc  1 e 24 0 ]
+"15
+[v _caract_count caract_count `uc  1 e 1 0 ]
+"8 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+} 0
+"26 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\user.c
+[v _init_App init_App `(v  1 e 1 0 ]
+{
+"27
+[v init_App@i i `uc  1 a 1 34 ]
+"47
+} 0
+"230
+[v _azi_lim_control azi_lim_control `(uc  1 e 1 0 ]
+{
+[v azi_lim_control@move move `uc  1 a 1 wreg ]
+[v azi_lim_control@move move `uc  1 a 1 wreg ]
+[v azi_lim_control@move move `uc  1 a 1 10 ]
+"262
+} 0
+"212
+[v _jump_azi_ctrl jump_azi_ctrl `(uc  1 e 1 0 ]
+{
+"213
+[v jump_azi_ctrl@dif_value dif_value `us  1 a 2 56 ]
+"228
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 54 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 0 ]
+"13
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1371
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 50 ]
+[s S2969 _IO_FILE 0 ]
+"1368
+[v vfprintf@fp fp `*.2S2969  1 p 2 44 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 46 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 48 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"674
+[v vfpfcnvrt@ll ll `o  1 a 8 36 ]
+[s S2969 _IO_FILE 0 ]
+"670
+[v vfpfcnvrt@fp fp `*.2S2969  1 p 2 28 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 30 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 32 ]
+"1365
+} 0
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"277
+[v dtoa@n n `o  1 a 8 18 ]
+"276
+[v dtoa@i i `i  1 a 2 26 ]
+[v dtoa@s s `i  1 a 2 16 ]
+[v dtoa@w w `i  1 a 2 14 ]
+[v dtoa@p p `i  1 a 2 12 ]
+[s S2969 _IO_FILE 0 ]
+"274
+[v dtoa@fp fp `*.2S2969  1 p 2 0 ]
+[v dtoa@d d `o  1 p 8 2 ]
+"315
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 46 ]
+[v pad@i i `i  1 a 2 44 ]
+[s S2969 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.2S2969  1 p 2 37 ]
+[v pad@buf buf `*.39uc  1 p 2 39 ]
+[v pad@p p `i  1 p 2 41 ]
+"95
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 21 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 19 ]
+"12
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 35 ]
+"10
+[v fputs@c c `uc  1 a 1 34 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 30 ]
+[s S3473 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.2S3473  1 p 2 32 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 21 ]
+[s S3473 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S3473  1 p 2 23 ]
+"21
+} 0
+"173 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 20 ]
+"175
+} 0
+"138
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 19 ]
+"171
+} 0
+"98
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"100
+} 0
+"1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 37 ]
+"4
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 36 ]
+[v ___aomod@counter counter `uc  1 a 1 35 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 19 ]
+[v ___aomod@divisor divisor `o  1 p 8 27 ]
+"36
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 37 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 36 ]
+[v ___aodiv@counter counter `uc  1 a 1 35 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 19 ]
+[v ___aodiv@divisor divisor `o  1 p 8 27 ]
+"43
+} 0
+"162 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _EPWM2_engine_SoftStop EPWM2_engine_SoftStop `(v  1 e 1 0 ]
+{
+"181
+} 0
+"120
+[v _EPWM2_engine_off EPWM2_engine_off `(v  1 e 1 0 ]
+{
+"129
+} 0
+"23 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `uc  1 a 1 wreg ]
+"24
+[v ADC_GetConversion@accum accum `us  1 a 2 31 ]
+"25
+[v ADC_GetConversion@count count `uc  1 a 1 33 ]
+"23
+[v ADC_GetConversion@channel channel `uc  1 a 1 wreg ]
+[v ADC_GetConversion@averaged averaged `uc  1 p 1 26 ]
+[v ADC_GetConversion@channel channel `uc  1 a 1 30 ]
+"40
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 24 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 23 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 19 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 21 ]
+"30
+} 0
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"26
+} 0
+"11 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/Light_sensor_I2C.c
+[v _i2c_BH1750_init i2c_BH1750_init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"55
+[v _BH1750_measure BH1750_measure `(us  1 e 2 0 ]
+{
+[v BH1750_measure@channel channel `uc  1 a 1 wreg ]
+"58
+[v BH1750_measure@acum acum `ul  1 a 4 32 ]
+"57
+[v BH1750_measure@Data_lux Data_lux `us  1 a 2 36 ]
+"56
+[v BH1750_measure@i i `uc  1 a 1 38 ]
+"55
+[v BH1750_measure@channel channel `uc  1 a 1 wreg ]
+[v BH1750_measure@average average `uc  1 p 1 28 ]
+[v BH1750_measure@channel channel `uc  1 a 1 39 ]
+"90
+} 0
+"22
+[v _i2c_BH1750_open i2c_BH1750_open `(uc  1 e 1 0 ]
+{
+[v i2c_BH1750_open@channel channel `uc  1 a 1 wreg ]
+[v i2c_BH1750_open@channel channel `uc  1 a 1 wreg ]
+[v i2c_BH1750_open@channel channel `uc  1 a 1 4 ]
+"41
+} 0
+"24 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/i2c2_master.c
+[v _i2c2_Open i2c2_Open `(uc  1 e 1 0 ]
+{
+[v i2c2_Open@slaveAddress slaveAddress `uc  1 a 1 wreg ]
+[v i2c2_Open@slaveAddress slaveAddress `uc  1 a 1 wreg ]
+[v i2c2_Open@address address `uc  1 p 1 0 ]
+[v i2c2_Open@slaveAddress slaveAddress `uc  1 a 1 1 ]
+"49
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 27 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 31 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 19 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 23 ]
+"30
+} 0
+"43 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/Light_sensor_I2C.c
+[v _BH1750_Data_Read BH1750_Data_Read `(us  1 e 2 0 ]
+{
+[v BH1750_Data_Read@Read_meas Read_meas `uc  1 a 1 wreg ]
+"44
+[v BH1750_Data_Read@raw_value raw_value `[2]uc  1 a 2 26 ]
+"45
+[v BH1750_Data_Read@lux_value lux_value `us  1 a 2 24 ]
+"43
+[v BH1750_Data_Read@Read_meas Read_meas `uc  1 a 1 wreg ]
+"46
+[v BH1750_Data_Read@Read_meas Read_meas `uc  1 a 1 23 ]
+"53
+} 0
+"51 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/i2c2_master.c
+[v _i2c2_gets i2c2_gets `(uc  1 e 1 0 ]
+{
+[v i2c2_gets@slaveAddress slaveAddress `uc  1 a 1 wreg ]
+[v i2c2_gets@slaveAddress slaveAddress `uc  1 a 1 wreg ]
+[v i2c2_gets@ptrData ptrData `*.39uc  1 p 2 0 ]
+[v i2c2_gets@length length `uc  1 p 1 2 ]
+[v i2c2_gets@slaveAddress slaveAddress `uc  1 a 1 3 ]
+"85
+} 0
+"11
+[v _i2c2_init i2c2_init `(v  1 e 1 0 ]
+{
+"22
+} 0
+"103
+[v _i2c2_control i2c2_control `(a  1 e 1 0 ]
+{
+[v i2c2_control@bit_field bit_field `uc  1 a 1 wreg ]
+[v i2c2_control@bit_field bit_field `uc  1 a 1 wreg ]
+[v i2c2_control@bit_field bit_field `uc  1 a 1 55 ]
+"138
+} 0
+"34 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr0.c
+[v _TMR0_request_period TMR0_request_period `(uc  1 e 1 0 ]
+{
+"36
+} 0
+"28
+[v _TMR0_period TMR0_period `(v  1 e 1 0 ]
+{
+[v TMR0_period@per per `uc  1 a 1 wreg ]
+[v TMR0_period@per per `uc  1 a 1 wreg ]
+[v TMR0_period@per per `uc  1 a 1 52 ]
+"32
+} 0
+"43
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+{
+"46
+} 0
+"38
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"41
+} 0
+"62
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"66
+} 0
+"68
+[v _TMR0_HasOverflowOccured TMR0_HasOverflowOccured `(a  1 e 1 0 ]
+{
+"70
+} 0
+"16
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+[v TMR0_Initialize@period period `uc  1 a 1 wreg ]
+[v TMR0_Initialize@period period `uc  1 a 1 wreg ]
+[v TMR0_Initialize@period period `uc  1 a 1 52 ]
+"26
+} 0
+"48
+[v _TMR0_WriteTimer TMR0_WriteTimer `(us  1 e 2 0 ]
+{
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+"49
+[v TMR0_WriteTimer@period period `us  1 a 2 50 ]
+"48
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+"50
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 49 ]
+"60
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 27 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 19 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 23 ]
+"129
+} 0
+"10 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"28 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"12 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"29
+} 0
+"31
+[v _EXT_INT_init EXT_INT_init `(v  1 e 1 0 ]
+{
+"56
+} 0
+"51 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"261
+[v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 19 ]
+"263
+} 0
+"265
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 19 ]
+"267
+} 0
+"253
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 19 ]
+"255
+} 0
+"249
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 19 ]
+"251
+} 0
+"257
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 19 ]
+"259
+} 0
+"15 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm3.c
+[v _EPWM3_Initialize EPWM3_Initialize `(v  1 e 1 0 ]
+{
+[v EPWM3_Initialize@freq freq `uc  1 a 1 wreg ]
+[v EPWM3_Initialize@freq freq `uc  1 a 1 wreg ]
+[v EPWM3_Initialize@freq freq `uc  1 a 1 33 ]
+"64
+} 0
+"20 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr4.c
+[v _TMR4_WriteTimer TMR4_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR4_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR4_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR4_WriteTimer@timerVal timerVal `uc  1 a 1 19 ]
+"23
+} 0
+"15
+[v _TMR4_StopTimer TMR4_StopTimer `(v  1 e 1 0 ]
+{
+"18
+} 0
+"66 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm3.c
+[v _EPWM3_period EPWM3_period `(v  1 e 1 0 ]
+{
+[v EPWM3_period@freq freq `uc  1 a 1 wreg ]
+[v EPWM3_period@freq freq `uc  1 a 1 wreg ]
+"67
+[v EPWM3_period@freq_lure freq_lure `uc  1 s 1 freq_lure ]
+[v EPWM3_period@freq freq `uc  1 a 1 25 ]
+"77
+} 0
+"25 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr4.c
+[v _TMR4_LoadPeriodRegister TMR4_LoadPeriodRegister `(v  1 e 1 0 ]
+{
+[v TMR4_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR4_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR4_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 19 ]
+"28
+} 0
+"103 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm3.c
+[v _EPWM3_outputs_off EPWM3_outputs_off `(v  1 e 1 0 ]
+{
+"107
+} 0
+"88
+[v _EPWM3_engine_config EPWM3_engine_config `(v  1 e 1 0 ]
+{
+[v EPWM3_engine_config@turn turn `uc  1 a 1 wreg ]
+"89
+[v EPWM3_engine_config@interval interval `f  1 a 4 26 ]
+"90
+[v EPWM3_engine_config@pulse_width_bit pulse_width_bit `us  1 a 2 31 ]
+"88
+[v EPWM3_engine_config@turn turn `uc  1 a 1 wreg ]
+[v EPWM3_engine_config@duty duty `uc  1 p 1 23 ]
+[v EPWM3_engine_config@turn turn `uc  1 a 1 30 ]
+"101
+} 0
+"79
+[v _EPWM3_duty_const EPWM3_duty_const `(f  1 e 4 0 ]
+{
+[v EPWM3_duty_const@freq freq `uc  1 a 1 wreg ]
+[v EPWM3_duty_const@freq freq `uc  1 a 1 wreg ]
+"80
+[v EPWM3_duty_const@interval interval `f  1 s 4 interval ]
+[v EPWM3_duty_const@freq freq `uc  1 a 1 55 ]
+"86
+} 0
+"15 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _EPWM2_Initialize EPWM2_Initialize `(v  1 e 1 0 ]
+{
+[v EPWM2_Initialize@freq freq `uc  1 a 1 wreg ]
+[v EPWM2_Initialize@freq freq `uc  1 a 1 wreg ]
+[v EPWM2_Initialize@freq freq `uc  1 a 1 29 ]
+"64
+} 0
+"20 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr2.c
+[v _TMR2_WriteTimer TMR2_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 19 ]
+"23
+} 0
+"15
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+{
+"18
+} 0
+"66 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _EPWM2_period EPWM2_period `(v  1 e 1 0 ]
+{
+[v EPWM2_period@freq freq `uc  1 a 1 wreg ]
+[v EPWM2_period@freq freq `uc  1 a 1 wreg ]
+"67
+[v EPWM2_period@freq_lure freq_lure `uc  1 s 1 freq_lure ]
+[v EPWM2_period@freq freq `uc  1 a 1 15 ]
+"77
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 41 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 40 ]
+[v ___aldiv@counter counter `uc  1 a 1 39 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 31 ]
+[v ___aldiv@divisor divisor `l  1 p 4 35 ]
+"41
+} 0
+"25 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr2.c
+[v _TMR2_LoadPeriodRegister TMR2_LoadPeriodRegister `(v  1 e 1 0 ]
+{
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 19 ]
+"28
+} 0
+"101 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _EPWM2_outputs_off EPWM2_outputs_off `(v  1 e 1 0 ]
+{
+"105
+} 0
+"86
+[v _EPWM2_engine_config EPWM2_engine_config `(v  1 e 1 0 ]
+{
+[v EPWM2_engine_config@turn turn `uc  1 a 1 wreg ]
+"87
+[v EPWM2_engine_config@interval interval `f  1 a 4 22 ]
+"88
+[v EPWM2_engine_config@pulse_width_bit pulse_width_bit `us  1 a 2 27 ]
+"86
+[v EPWM2_engine_config@turn turn `uc  1 a 1 wreg ]
+[v EPWM2_engine_config@duty duty `uc  1 p 1 19 ]
+[v EPWM2_engine_config@turn turn `uc  1 a 1 26 ]
+"99
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 18 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 17 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 51 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S3336 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S3341 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S3344 . 4 `l 1 i 4 0 `d 1 f 4 0 `S3336 1 fAsBytes 4 0 `S3341 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S3344  1 a 4 7 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 2 ]
+[s S3412 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S3415 . 2 `s 1 i 2 0 `us 1 n 2 0 `S3412 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S3415  1 a 2 11 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 6 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 1 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 0 ]
+"8
+[v ___flmul@b b `d  1 p 4 39 ]
+[v ___flmul@a a `d  1 p 4 43 ]
+"205
+} 0
+"79 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm2.c
+[v _EPWM2_duty_const EPWM2_duty_const `(f  1 e 4 0 ]
+{
+[v EPWM2_duty_const@freq freq `uc  1 a 1 wreg ]
+[v EPWM2_duty_const@freq freq `uc  1 a 1 wreg ]
+"80
+[v EPWM2_duty_const@interval interval `f  1 s 4 interval ]
+[v EPWM2_duty_const@freq freq `uc  1 a 1 55 ]
+"84
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 35 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 34 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 25 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 33 ]
+"44
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 23 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 19 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 21 ]
+"53
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 7 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 0 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 5 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 12 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 11 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 4 ]
+"11
+[v ___fldiv@b b `d  1 p 4 39 ]
+[v ___fldiv@a a `d  1 p 4 43 ]
+"185
+} 0
+"12 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"21
+} 0
+"96 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
+{
+"107
+} 0
+"55 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr3.c
+[v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
+{
+"60
+} 0
+"50
+[v _TMR3_Reload TMR3_Reload `(v  1 e 1 0 ]
+{
+"53
+} 0
+"37
+[v _TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR3_WriteTimer@timerVal timerVal `us  1 p 2 10 ]
+"48
+} 0
+"56 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"61
+} 0
+"51
+[v _TMR1_Reload TMR1_Reload `(v  1 e 1 0 ]
+{
+"54
+} 0
+"37
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 10 ]
+"49
+} 0
+"73 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/interrupt_manager.c
+[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
+{
+"83
+} 0
+"177 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"190
+} 0
+"85 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+{
+"94
+} 0
+"66
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+{
+"71
+} 0
+"201 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/epwm3.c
+[v _EPWM3_STOP EPWM3_STOP `(v  1 e 1 0 ]
+{
+"206
+[v EPWM3_STOP@pulse_width_bit pulse_width_bit `us  1 a 2 2 ]
+"219
+} 0
+"58 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/interrupt_manager.c
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+{
+"64
+} 0
+"192 E:\Dropbox\Mis documentos(Dropbox)\EMI\UTN\6º AÑO\Proyeto Final\Proyecto 2020\PCB_Soft\Main_Module_v20.11.25.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"208
+} 0
+"239
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"243
+} 0
+"235
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+"237
+} 0
+"245
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"247
+} 0
+"210
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"233
+} 0

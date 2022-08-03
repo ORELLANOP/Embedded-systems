@@ -1,0 +1,11 @@
+ PENDIENTE:
+
+- Pulsador de cambio de modo
+- Función de posicionamiento horizontal del panel
+
+
+REVISIONES A FUTURO:
+ 
+1 - REVISAR LA CONFIGURACIÓN DEL SLEEP, POR PROBLEMAS CON EL EUSART
+2 - Ver en init_App la parte de chequeo de EEPROM y condición del ADC
+

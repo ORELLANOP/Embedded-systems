@@ -1,0 +1,78 @@
+Specs
+-Total output error 1.5% at T A = 25°C
+-1.2 mΩ internal conductor resistance
+-5.0 V, single supply Máx 5.5V, min 4.5V.
+-Corriente 8mA.
+-Output voltage proportional to AC or DC currents
+-para 05B 		185mV/A
+-para 20A 		100mV/A
+-para 30A  		66mV/A
+-Máx tensión 		8V y -0.1
+-Máx Iout source 	3mA
+-Máx Iout sink 		10mA
+-Con 			0A ->  2.5V
+-Para 05B 	 10A-> ~4.4V
+	 	-10A-> ~0.6V
+
+----------------------------------------------------------------------------
+0a	2.586
+
+Leds
+	2.566 sony
+	2.571 xiaomi
+15mV ~ ->81ma?
+_____________________________________________________________________
+---------------------------------------------------------------------
+Medición resistencias
+
+219.4 r1	218.9 r2	109.6
+5.15V alim sensor 	4.83Vr alim res
+2.574/2.571/2.572 con R		9.7mV diff
+2.582 vacío
+Vsens/185=Isens
+52.4mA 	Medido
+41mA	Calculado
+
+____________________________________________________________________
+--------------------------------------------------------------------
+Medición Leds usb + 1.5ohm 
+res medida	1.7/1.8ohm
+5.16V alim sensor 	4.54V fuente res
+216.4mV Vres		2.558/2.560 Vsens	2.586Vsens vacío
+
+Calculado(1.5): 	144.27mA
+Medido:			146mA 
+
+_____________________________________________________________________
+---------------------------------------------------------------------
+Con 5V precisos:
+Leds
+
+en vacío:
+5.00V
+sensor
+2.503V
+
+con led:
+5.01
+sens
+2.555
+52/185=281mA
+________________________________________________________
+vacío	carga	Con cto más corto
+2.508	2.516	2.501	2.505
+res 220 Ohm
+5V	14mV	5.1V	0mV
+
+calc: 	22.6mA	
+med:	43  mA	21.6mA
+-------------------------------------------------------
+ESp con cto corto corriendo rutina
+vacío		arranque	
+2.505 		2.519		75mA
++220 Ohm
+debería dar 96mA
+2.523		97.3mA 
+
+lámapara 2.560		300mA
+lam +esp 2.575		378mA
